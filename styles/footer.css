@@ -1,0 +1,31 @@
+footer {
+    background-color: var(--azul);
+    text-align: center;
+    padding: 2% 5% 1% 5%;
+}
+.logo_footer{
+    padding-bottom: 2%;
+}
+.logo_footer img{
+    width: 200px;
+    height: 170px;
+}
+.contatos_footer img{
+    width: 50px;
+    height: 50px;
+    
+}
+.contatos_footer a{
+    margin: 5% 5%;
+}
+.direitos_reservados{
+    padding-top: 3%;
+    font-size: 0.5em;
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .logo_footer img {
+        width: 130px;
+        height: 130px;
+    }
+}

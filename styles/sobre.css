@@ -1,0 +1,22 @@
+.abouts{
+    font-size: 1.4em;
+    padding-top: 2.5%;
+}
+.paragrafos_abouts p{
+    padding-top: 2.5%;
+}
+.infosolo{
+    font-size: 1.4em;
+    margin-top: 2.5%;
+}
+.infosolo h6{
+    color: var(--azul);
+}
+@media (max-width: 768px){
+    .sobre_mim p {
+        font-size: 0.7em;
+    }
+    .infosolo{
+        font-size: 0.8em;
+    }
+}

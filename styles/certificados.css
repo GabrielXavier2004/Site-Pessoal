@@ -1,0 +1,22 @@
+.certificado_img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.certificado{
+    display: flex;
+    align-items: center;
+    padding: 4%;
+}
+.certificado_descricao a{
+    font-weight: bold;
+    color: var(--azul);
+    text-decoration: none;
+    text-align: start;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.certificado_descricao{
+    padding-left: 2%;
+    font-size: 1em;
+}

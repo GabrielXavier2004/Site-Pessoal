@@ -1,0 +1,89 @@
+.conteudo_titulo {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.title{
+    text-align: left;
+    font-size: 1.4em;
+}
+.nome{
+    display: flex;
+    text-align: left;
+}
+
+.img_logos_tec{
+    max-width: 40vw;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .conteudo_titulo{
+        display: block;
+        align-items: center;
+    }
+    .img_logos_tec{
+        max-width: 60vw;
+    }
+    .title{
+        font-size: 1em;
+    }
+}
+
+.animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 1rem;
+  }
+  
+  .animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 8s infinite;
+  }
+  
+  .first div {
+    background-color:var(--azul);
+    font-weight: bold;
+  }
+  .second div {
+    background-color:var(--azul);
+    font-weight: bold;
+  }
+
+  
+  @keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: 0;}
+    30% {margin-top: 0;}
+    40% {margin-top: -5.62rem;}
+    50% {margin-top: -5.62rem;}
+    60% {margin-top: -5.62rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: 0;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+  }
+
+.title_4{
+    color: #ffffff;
+    background: linear-gradient(to right, #ffffff 0, var(--azul) 10%, #ffffff 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: brilhar 6s infinite linear;
+    animation-fill-mode: forwards;
+}
+@keyframes brilhar {
+    0% {background-position: 0} 
+    50% {background-position: 160px} 
+    100% {background-position: 380px} 
+}
+  

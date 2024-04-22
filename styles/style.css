@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(/styles/header.css);
+@import url(/styles/sobre.css);
+@import url(/styles/titulo.css);
+@import url(/styles/portifolio.css);
+@import url(/styles/certificados.css);
+@import url(/styles/contato.css);
+@import url(/styles/footer.css);
+
+:root{
+    --preto: #000;
+    --branco: #ffffff;
+    --azul: #004aad;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size:3vh;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.conteudo {
+    padding: 5% 15% 0 15%;
+}
+
+h2{
+    font-weight: bold;
+}
+
+.titulo_sec{
+    color: var(--azul);
+    text-align: center;
+    margin-top: 10%;
+    font-size: 1.4em;
+}
+@media (max-width: 768px){
+    .titulo_sec{
+        font-size: 1.0em;
+    }
+}
