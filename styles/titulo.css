@@ -15,6 +15,20 @@
 .img_logos_tec{
     max-width: 40vw;
     text-align: center;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    animation: morph 6s ease-in-out infinite;
+
+}
+@keyframes morph {
+  0% {
+			border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+	} 
+	50% {
+			border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;
+	}
+	100% {
+		border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+  	} 
 }
 
 
@@ -25,6 +39,7 @@
     }
     .img_logos_tec{
         max-width: 60vw;
+        
     }
     .title{
         font-size: 1em;
@@ -86,4 +101,24 @@
     50% {background-position: 160px} 
     100% {background-position: 380px} 
 }
-  
+
+.curriculo{
+  display:inline-block;
+  margin-top: 30px;
+  padding: 5px;
+  background-color: var(--azul);
+  border-radius: 15px;
+}
+.link_curriculo{
+  color: var(--branco);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+}
+@media (min-width: 100px) and (max-width: 768px) {
+  .curriculo {
+      border-radius: 15px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+  }
+}

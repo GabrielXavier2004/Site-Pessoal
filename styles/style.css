@@ -6,6 +6,7 @@
 @import url(/styles/certificados.css);
 @import url(/styles/contato.css);
 @import url(/styles/footer.css);
+@import url(/styles/tec.css);
 
 :root{
     --preto: #000;

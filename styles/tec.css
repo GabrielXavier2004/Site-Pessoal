@@ -1,0 +1,28 @@
+.tecnologies {
+    display: flex;
+    overflow: hidden;
+    padding: 60px 0;
+    background-color: transparent;
+}
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.tecnologies_img {
+    white-space: nowrap;
+    animation: 15s slide infinite linear;
+}
+.tecnologies_img img {
+    height: 120px;
+    margin: 0 40px;
+}
+@media (min-width: 100px) and (max-width: 768px) {
+    .tecnologies_img img {
+        height: 90px;
+        margin: 0 20px;
+    }
+}
