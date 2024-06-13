@@ -2,13 +2,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 400px;
-    gap: 60px;
+    height: 45vh;
+    gap: 40px;
     transition: 0.3s;
-    margin-top: 2.5%;
+    margin-top: 2vh;
 }
 .accordion:hover{
-    gap:30px;
+    gap:25px;
 }
 .accordion li {
     position: relative;
@@ -92,8 +92,12 @@ opacity: 1;
 visibility: visible;
 }
 
+.desc_port{
+    font-size: 2vh;
+}
+
 @media (max-width: 767px){
     .accordion li {
-        flex: 0 0 80px;
+        flex: 0 2 75px;
       }
 }
