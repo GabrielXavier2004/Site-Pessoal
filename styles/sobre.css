@@ -13,8 +13,8 @@
     color: var(--azul);
 }
 @media (max-width: 768px){
-    .sobre_mim p {
-        font-size: 0.7em;
+    .paragrafos_abouts{
+        font-size: 0.5em;
     }
     .infosolo{
         font-size: 0.8em;

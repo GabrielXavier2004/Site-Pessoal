@@ -20,3 +20,8 @@
     padding-left: 2%;
     font-size: 1em;
 }
+@media (max-width: 768px){
+    .certificado_descricao{
+        font-size: 0.7em;
+    }
+}
