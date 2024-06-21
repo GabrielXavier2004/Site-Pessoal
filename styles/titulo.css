@@ -46,46 +46,28 @@
     }
 }
 
-.animation {
-    height:50px;
-    overflow:hidden;
-    margin-left: 1rem;
-  }
-  
-  .animation > div > div {
-    padding: 0.25rem 0.75rem;
-    height:2.81rem;
-    margin-bottom: 2.81rem;
-    display:inline-block;
-  }
-  
-  .animation div:first-child {
-    animation: text-animation 8s infinite;
-  }
-  
-  .first div {
-    background-color:var(--azul);
-    font-weight: bold;
-  }
-  .second div {
-    background-color:var(--azul);
-    font-weight: bold;
-  }
+.name{
+  color: var(--azul);
+  overflow: hidden; 
+  border-right: .10em solid var(--azul);
+  white-space: nowrap;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size:1em;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
 
-  
-  @keyframes text-animation {
-    0% {margin-top: 0;}
-    10% {margin-top: 0;}
-    20% {margin-top: 0;}
-    30% {margin-top: 0;}
-    40% {margin-top: -5.62rem;}
-    50% {margin-top: -5.62rem;}
-    60% {margin-top: -5.62rem;}
-    70% {margin-top: -5.62rem;}
-    80% {margin-top: 0;}
-    90% {margin-top: 0;}
-    100% {margin-top: 0;}
-  }
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--azul); }
+}
 
 .title_4{
     color: #ffffff;
